@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DMSLAnalyticsAmplitude_Tests' do
+  pod 'DMSLAnalyticsAmplitude', :path => '../'
+  
+  
+end
