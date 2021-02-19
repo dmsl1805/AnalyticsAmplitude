@@ -1,0 +1,6 @@
+framework module DMSLAnalyticsAmplitude {
+  umbrella header "DMSLAnalyticsAmplitude-umbrella.h"
+
+  export *
+  module * { export * }
+}

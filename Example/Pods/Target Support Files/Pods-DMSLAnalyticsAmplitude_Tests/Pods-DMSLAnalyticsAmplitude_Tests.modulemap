@@ -1,0 +1,6 @@
+framework module Pods_DMSLAnalyticsAmplitude_Tests {
+  umbrella header "Pods-DMSLAnalyticsAmplitude_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

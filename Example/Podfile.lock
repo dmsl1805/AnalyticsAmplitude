@@ -1,0 +1,31 @@
+PODS:
+  - Amplitude (7.2.2)
+  - DMSLAnalyticsAmplitude (0.1.0):
+    - Amplitude
+    - DMSLAnalyticsCore
+  - DMSLAnalyticsCore (0.1.3):
+    - Tagged
+  - Tagged (0.5.0)
+
+DEPENDENCIES:
+  - DMSLAnalyticsAmplitude (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Amplitude
+    - DMSLAnalyticsCore
+    - Tagged
+
+EXTERNAL SOURCES:
+  DMSLAnalyticsAmplitude:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Amplitude: 517cdc7c485bda64b685174426ecbf17746eb16a
+  DMSLAnalyticsAmplitude: 67fc9485660b7603a0ef8931ca2a5840a44539b1
+  DMSLAnalyticsCore: eca31000b1a776be39671f263d5b43251c7cbb5a
+  Tagged: 8d3ac5d5c6dfbc35ec95c1ad45a0f7c79d0fdd27
+
+PODFILE CHECKSUM: 480863028d77211ecab2fbb5bba6d0ad9b38fdd6
+
+COCOAPODS: 1.10.1

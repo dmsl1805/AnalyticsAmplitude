@@ -21,17 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Dmytro Shulzhenko/DMSLAnalyticsAmplitude'
+  s.homepage         = 'https://github.com/Dmytro Shulzhenko/AnalyticsAmplitude'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dmytro Shulzhenko' => 'dmytro.shulzhenko@gen.tech' }
-  s.source           = { :git => 'https://github.com/Dmytro Shulzhenko/DMSLAnalyticsAmplitude.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Dmytro Shulzhenko/AnalyticsAmplitude.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'DMSLAnalyticsAmplitude/Classes/**/*'
   
+  s.dependency 'DMSLAnalyticsCore'
+  s.dependency 'Amplitude'
+
   # s.resource_bundles = {
   #   'DMSLAnalyticsAmplitude' => ['DMSLAnalyticsAmplitude/Assets/*.png']
   # }
